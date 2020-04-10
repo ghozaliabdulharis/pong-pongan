@@ -66,6 +66,7 @@
     <Compile Include="Assets\Ballscript.cs" />
     <Compile Include="Assets\kananan.cs" />
     <Compile Include="Assets\kirinan.cs" />
+    <Compile Include="Assets\TimerScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/asus/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

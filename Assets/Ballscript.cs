@@ -17,4 +17,12 @@ public class Ballscript : MonoBehaviour
     {
         
     }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.collider.name=="WallVertical" || other.collider.name == "WallVertical1")
+        {
+            GetComponent<Transform>().position = new Vector2(0, 0);
+        }  
+    }
 }
